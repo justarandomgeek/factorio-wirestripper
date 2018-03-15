@@ -4,6 +4,7 @@ data:extend({
     type = "selection-tool",
     name = "wirestripper-tool",
     icon = "__wirestripper__/wirestripper.png",
+    icon_size = 32,
     stack_size = 1,
     subgroup = "terrain",
     order = "d[wirestripper-tool]-a[plain]",
