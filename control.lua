@@ -15,10 +15,10 @@ script.on_event(defines.events.on_player_alt_selected_area, function(event)
     --game.print(serpent.block(event))
     -- remove all red/green
     for _,ent in pairs(event.entities) do
-      if ent.type == "electric-pole" then
+      --if ent.type == "electric-pole" then
           ent.disconnect_neighbour(defines.wire_type.red)
           ent.disconnect_neighbour(defines.wire_type.green)
-      end
+      --end
     end
   end
 end)

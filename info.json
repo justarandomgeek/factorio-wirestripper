@@ -1,10 +1,10 @@
 {
 	"name":"wirestripper",
 	"author":"justarandomgeek",
-	"version":"0.16.0",
+	"version":"0.16.1",
 	"title":"Wire Stripper",
 	"homepage":"",
-	"description":"Removes wires from poles in the selected area. Normal select to remove copper, shift-select to remove red/green.",
+	"description":"Removes wires in the selected area. Normal select to remove copper from poles, shift-select to remove red/green from all entities.",
 	"dependencies": ["base"],
   "factorio_version": "0.16"
 }
