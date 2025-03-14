@@ -4,7 +4,7 @@
 	"version":"2.0.2",
 	"title":"Wire Stripper",
 	"homepage":"",
-	"description":"Removes wires from poles in the selected area. Normal select to remove copper, shift-select to remove red/green.",
+	"description":"Removes wires from poles in the selected area. Normal select to red/green wires from poles, shift-select to remove from everything.",
 	"dependencies": ["base"],
 	"factorio_version": "2.0"
 }
