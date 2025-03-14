@@ -21,9 +21,6 @@ data:extend({
       border_color = {r = 0.2, g = 0.8, b = 0.2, a = 0.2},
       mode = "blueprint",
       cursor_box_type = "electricity",
-      entity_type_filters = {
-        "electric-pole"
-      }
     },
   }--[[@as data.SelectionToolPrototype]],
   {
